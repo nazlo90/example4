@@ -1,0 +1,126 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+	/*header*/
+	.header .contact {
+		padding-left: 50px; 
+	}
+	.header .contact span {
+		margin: 0 6px 0 0;
+	}
+	/*navigation*/
+	header .navigation ul li {
+		margin: 43px 10px 0 0;
+	}
+	header .navigation ul li a {
+		font-size: 13px;
+	}
+	.header p {
+		font-size: 12px;
+	}
+
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+	header .title h1 , body.history header .title h1 {
+		font-size: 89px;
+		
+	}
+}
+
+/* Medium Devices, Desktops */
+@media (max-width: 991px) {
+	/*header*/
+	header.main .bgvideo {
+		display: none;
+	}
+	header.main .view {
+		background: url(../img/bg_main.jpg) no-repeat center center /cover;
+	}
+	/*navigation*/
+	header .navigation ul, .header {
+		display: none;
+	}
+	header .navigation .container, header .navigation .container .row, header .navigation .container .row .col-md-2 {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	header .navigation .logo {
+		border-radius: 0 0 5px 0;
+		width: 120px;
+	}
+	/*scrool*/
+	header .scroll {
+		margin-top: 100px;
+	}
+	.toggle_mnu/*Кнопка мобільного меню*/{
+		right: 0 !important;
+		top: 0  !important;
+		display: block !important;
+	}
+	/*title*/
+	header .title .reserv {
+		display: none;
+	}
+	.rooms .room_about {
+		padding-top: 10px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	/*section.advantages*/
+	section.advantages h2 + .list li {
+		margin: 7px 0;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+	/*header*/
+	header .title h1, header.main .view .title_main h1 {
+		font-size: 50px;
+	}
+	header .title h2, header.main .view .title_main h2 {
+		font-size: 40px;
+		margin-top: -20px;
+	}
+	/*section.advantages*/
+	section.advantages {
+		background: #c4b8aa; 
+	}
+	section.advantages h2 + .list li {
+		margin: 20px 0;
+	}
+	section.advantages{
+		text-align: center;
+	}
+	.rooms .room_about {
+		padding-top: 10px;
+	}
+}	
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 499px) {
+	/*.header*/
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 420px) {
+	.col-xs-6 {
+		width: 100%;
+	}
+	.rooms .room_about {
+		padding-top: 10px;
+	}
+}
+
+@media (min-width: 992px) {
+	#free_services > .container > .row > div.col-sm-offset-4 {
+		margin-left: 0 !important;
+	}
+}

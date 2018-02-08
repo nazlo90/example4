@@ -1,0 +1,80 @@
+.jq-selectbox {
+	vertical-align: middle;
+	cursor: pointer;
+	margin-left: 11px;
+}
+.jq-selectbox__select {
+	background: #fff none repeat scroll 0 0;
+	border-radius: 5px;
+	color: #1c1c1c;
+	font-size: 12px;
+	height: 25px;
+	line-height: 22px;
+	padding-left: 10px;
+	text-align: left;
+	width: 305px;
+}
+.jq-selectbox__select:active {
+	background: #fff;
+}
+
+.jq-selectbox__select-text {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.jq-selectbox__trigger-arrow {
+	position: absolute;
+	top: 9px;
+	right: 8px;
+	width: 11px;
+	height: 7px;
+	transition: .3s;
+	background: url(../img/form_arrow.png) no-repeat center center;
+}
+
+.jq-selectbox__dropdown {
+	top: 25px;
+	width: 295px;
+	margin: 0;
+	padding: 0;
+	border-radius: 5px;
+	background: #FFF;
+}
+.jq-selectbox ul {
+	margin: 0;
+	padding: 0;
+}
+.jq-selectbox li {
+	font-size: 12px;
+	text-align: left;
+	color: #000;
+	padding: 5px 10px;
+}
+.jq-selectbox li.selected {
+	background: #A3ABB1;
+	color: #FFF;
+}
+.jq-selectbox li:hover {
+	background: #08C;
+	color: #FFF;
+}
+.jq-selectbox li.disabled {
+	color: #AAA;
+}
+.jq-selectbox li.disabled:hover {
+	background: none;
+}
+.jq-selectbox li.optgroup {
+	font-weight: bold;
+}
+.jq-selectbox li.optgroup:hover {
+	background: none;
+	color: #231F20;
+	cursor: default;
+}
+.jq-selectbox li.option {
+	padding-left: 25px;
+}

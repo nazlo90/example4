@@ -1,0 +1,338 @@
+header.place_history {
+	background: url(../images/history.jpg) no-repeat center center / cover;
+	position: relative;
+}
+header.place_history .navigation:before {
+	background: rgba(100,98,94, 0.65) none repeat scroll 0 0;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	display: block;
+	content: "";
+}
+header.one_place .navigation:before {
+	background: rgba(100,98,94, 0.65) none repeat scroll 0 0;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	display: block;
+	content: "";
+}
+header.place_history .title h1 {
+	font-size: 72px;
+}
+header.one_place .title h2 {
+	font-size: 85px;
+}
+header.one_place {
+	background: url(../img/sobytiya_podrobnee.jpg) no-repeat center center / cover;
+	position: relative;
+}
+header.one_place .title h1 {
+	font-size: 50px;
+	line-height: 55px;
+}
+header.one_place .title h2 {
+	font-size: 30px;
+	margin-top: 0;
+	text-transform: capitalize;
+}
+header.events {
+	background: url(../img/bg_main.jpg) no-repeat center center / cover;
+}
+header.contact .view {
+	background: url(../img/kontakty.jpg) no-repeat center center /cover;
+}
+header.contact .view .header {
+	background: transparent;
+	color: #fff;
+	text-align: center;
+	height: auto;
+	display: block !important;
+}
+header.contact .view .header p {
+	display: block;
+	max-width: 700px;
+	margin: 35px auto;
+	padding-left: 0;
+	font-size: 20px;
+}
+header.contact .view .header .contact {
+	display: block;
+	max-width: 900px;
+	margin: 20px auto;
+	position: relative;
+}
+header.contact .view .header .contact span {
+	font-size: 20px;
+	margin: 0 20px;
+}
+section.history_places {
+	padding: 10px 0;
+	text-align: center;
+}
+section.history_places ul {
+	font-size: 0;
+	display: table;
+}
+section.history_places li {
+	display: inline-block;
+	width: 31.5vw;
+	margin: 10px 0;
+	vertical-align: top;
+	overflow: hidden;
+	height:15vw;
+}
+section.history_places li:nth-of-type(3n+2) {
+	margin-left: 19px;
+	margin-right: 19px;
+}
+section.history_places li a {
+	display: flex;
+	flex-direction: column;
+	height: inherit;
+	justify-content: center;
+	position: relative;
+}
+section.history_places li div {
+	background: rgba(42,57,75,.75);
+	width: 100%;
+	padding: 20px 10px;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: .5s;
+	-webkit-transition: .5s;
+}
+section.history_places li div h4 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #f6b41d;
+	position: relative;
+}
+section.history_places li div h4:after {
+	content: '';
+	position: absolute;
+	bottom: -15px;
+	left: 50%;
+	background: url(../img/place_hover.png) no-repeat center center;
+	margin-left: -60px;
+	height: 2px;
+	width: 120px;
+}
+section.history_places li div p {
+	font-size: 14px;
+	color: #fff;
+	margin: 25px 0;
+}
+section.history_places li a:hover div {
+	opacity: 1;
+}
+section.description_place {
+	padding: 40px 0 0 0;
+}
+section.description_place img {
+	float: left;
+	margin-right: 30px;
+}
+section.description_place a {
+	display: block;
+	text-align: center;
+	width: 211px;
+	height: 54px;
+	margin: 15px 140px 30px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+	float: right;
+	background: #f6b41d;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 14px 0;
+	transition: .5s;
+}
+section.description_place a:hover {
+	background: #2C5286;
+}
+section.events_lviv {
+	background: #32445a;
+}
+section.events_lviv ul {
+	font-size: 0;
+	display: table;
+}
+section.events_lviv li div {
+	width: 50%;
+	float: left;
+}
+section.events_lviv li div:nth-of-type(1){
+	overflow: hidden;
+	height: 24vw;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+section.events_lviv li:nth-of-type(2n+1) div:nth-of-type(1) {
+	max-width: 918px;
+}
+section.events_lviv li:nth-of-type(2n) div:nth-of-type(1) {
+	float: right;
+}
+section.events_lviv li:nth-of-type(2n) div:nth-of-type(2) h4, section.events_lviv li:nth-of-type(2n) div:nth-of-type(2) p, section.events_lviv li:nth-of-type(2n) div:nth-of-type(2) span {
+	text-align: right;
+}
+section.events_lviv li:nth-of-type(2n) div:nth-of-type(2) span:after {
+	right: 0;
+	left: auto;
+}
+section.events_lviv li:nth-of-type(2n) div:nth-of-type(2) a {
+	float: right;
+}
+section.events_lviv li:nth-of-type(2n) div:nth-of-type(2) {
+	max-width: 918px;
+}
+
+section.events_lviv li div:nth-of-type(2) {
+	padding: 25px 30px;
+}
+section.events_lviv li div h4 {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 600;
+	color: #f6b41d;
+}
+section.events_lviv li div span {
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	display: block;
+	position: relative;
+}
+
+section.events_lviv li div span:after {
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	background: url(../img/place_hover.png) no-repeat center center;
+	height: 2px;
+	width: 120px;
+}
+section.events_lviv li div p {
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	margin: 25px 0;
+	line-height: 22px;
+}
+section.events_lviv li div a {
+	display: block;
+	text-align: center;
+	width: 211px;
+	height: 54px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+	background: #f6b41d;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 14px 0;
+	transition: .5s;
+}
+section.events_lviv li div a:hover {
+	background: #2C5286;
+}
+
+
+/*MEDIA*/
+@media (max-width: 1200px){
+	section.history_places li {
+		width: 48vw;
+		height:23vw;
+	}
+	section.history_places li:nth-of-type(3n+2) {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	section.history_places li:nth-of-type(even) {
+		margin-left: 19px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+	section.events_lviv li div:nth-of-type(2) {
+		padding: 20px 30px;
+	}
+	section.events_lviv li div p {
+		font-size: 12px;
+		margin: 15px 0px;
+		line-height: 16px;
+	}
+}
+@media (max-width: 991px){
+	section.history_places li:nth-of-type(even) {
+		margin-left: 0;
+	}
+	section.history_places li {
+		width: 100vw;
+		height: auto;
+	}
+	section.history_places li div {
+		position: static;
+		opacity: 1;
+	}
+	section.description_place img {
+		float: none;
+		display: block;
+		margin: 0 auto 30px;
+		width: 100% !important;
+		height: auto !important;
+	}
+
+section.events_lviv li div {
+	width: 100%;
+	float: none !important;
+	display: block;
+	margin: 0 auto;
+}
+section.events_lviv li div img{
+	width: 100%;
+}
+section.events_lviv li div h4, section.events_lviv li div p, section.events_lviv li div span {
+	text-align: center !important;
+}
+section.events_lviv li div span:after {
+	right: auto !important;
+	left: 50% !important;
+	margin-left: -60px !important;
+}
+section.events_lviv li div a {
+	float: none !important;
+	margin: 0 auto !important;
+}
+section.events_lviv li div:nth-of-type(1){
+	height: 48vw;
+}
+
+
+
+
+}
+@media (max-width: 768px){
+	header.place_history .title h1 {
+		font-size: 36px;
+	}
+
+	header.contact .view .header p:before {
+		left: 25px;
+	}
+	header.contact .view .header .contact span {
+		margin: 0 10px;
+	}
+	header.contact .view .header p {
+		padding-left: 50px;
+	}
+}
